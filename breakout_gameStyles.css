@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#score{
+    margin-top: 10px;
+    font: small-caps bold 16px Arial sans-serif;
+}
+
+.grid {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border: solid black 3px;
+    margin-top: 80px;
+    background-color: rgb(220, 220, 214);
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: grey;
+    border: solid black 2px;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border: solid black 2px;
+    
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(212, 255, 0);
+    border: solid black 2px;
+}
